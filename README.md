@@ -1,2 +1,2 @@
 # SelfAssignments
-These are Assignments of me practicing Solidity.
+I am currently practicing Solidity.
