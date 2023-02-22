@@ -11,11 +11,12 @@ contract arr{
   
    function sumArr1() public view returns(uint){
    uint sum = 0;  
-     for(uint i=0 ; i<=arr1.length ; i++){
-        sum += arr1[i];
+     for(uint i=0 ; i < arr1.length ; i++){
+        sum = sum + arr1[i];
         
-       return sum;  
+       
     }   
+     return sum; 
     
 }
 }
