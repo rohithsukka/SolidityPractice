@@ -14,7 +14,8 @@ contract arr{
      for(uint i=0 ; i<=arr1.length ; i++){
         sum += arr1[i];
         
+       return sum;  
     }   
-    return sum;
+    
 }
 }
